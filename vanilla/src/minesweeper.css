@@ -1,0 +1,71 @@
+#board {
+  display: grid;
+  margin: auto;
+}
+
+.tile {
+  border: 1px solid #fff;
+  width: 32px;
+  height: 32px;
+  background-color: #ddd;
+  text-align: center;
+  color: #04A5EA;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.tile:hover {
+  cursor: pointer;
+  background-color: #aaa;
+}
+
+.tile__masked span {
+  display: none;
+}
+
+.tile__flipped span {
+  display: inline;
+}
+
+.tile__flipped {
+  background-color: #eee;
+}
+
+.tile__1 {
+  color: #b7ac00;
+}
+
+.tile__1 {
+  color: #b7ac00;
+}
+
+.tile__2 {
+  color: #eab604;
+}
+
+.tile__3 {
+  color: #EA8504;
+}
+
+.tile__4 {
+  color: #ea5d04;
+}
+
+.tile__5 {
+  color: #EA3404;
+}
+
+.tile__6 {
+  color: #EA0424;
+}
+
+.tile__7 {
+  color: #EA047D;
+}
+
+.tile__8 {
+  color: #EA04D6;
+}
